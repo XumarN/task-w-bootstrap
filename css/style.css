@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*.demo{
+    width: 100%;
+    min-height: 200px;
+    background: red;
+    float: left;
+    margin: 5px 0;
+}*/
+.rheader{
+    width: 100%;
+    min-height: 70px;
+    background: yellow;
+    float: left;
+    margin-bottom: 5px;
+    
+}
+.rNav{
+    width: 100%;
+    min-height: 370px;
+    background: yellow;
+    float: left;
+
+}
+.rArticle{
+    width: 100%;
+    min-height: 370px;
+    background: yellow;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.rAds{
+    width: 100%;
+    min-height: 370px;
+    background: grey;
+    float: left;
+
+}
+.rFooter{
+    width: 100%;
+    min-height: 70px;
+    background: yellow;
+    float: left;
+    margin-top: 5px;
+    
+
+}
+@media only screen and (max-width: 767px) {
+    .rNav, .rArticle, .rAds{
+        min-height: 100px;
+        margin: 10px 0px;
+    }
+}
